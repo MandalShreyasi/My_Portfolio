@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&display=swap');
+
+.card-container-project{
+        width:85%;
+        height:35rem;
+        overflow:hidden;
+        border: 1px solid #686565;
+        border-radius: 2.2rem;
+        /* box-shadow: 0px 0px 15px -5px; */
+        transition:0.3s;
+        animation:ease-in-out;
+        padding-top: 1.5rem;
+        margin: 3rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(205, 240, 207);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    /* .card-container:hover{
+        transform:scale(1.1);
+        box-shadow:0px 0px 15px 0px;
+    } */
+    
+    .image-container-project{
+        overflow:hidden;
+        height: 18rem;
+        width: 86%;
+    }
+
+    .image-container-project:hover{
+        transform:scale(1.1);
+        box-shadow:0px 0px 15px 0px;
+        border-top-left-radius:1rem ;
+        border-top-right-radius: 1rem;
+    }
+    
+    .card-content-project{
+        margin: 1rem;
+        margin-top: 0.5rem;
+        
+    }
+    .card-body-project{
+        margin: 0.3rem;
+    }
+    
+    h5,p{
+        margin:0;
+        padding:0;
+        font-size: 1.2rem;
+    }
+    
+    .card-title-project{
+        margin: 0.8rem;
+    }
+    .card-title-project h3{
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .btn-project button{
+        border: none;
+        padding: 0.8rem 1.8rem;
+        font-size: 1.4rem;
+        border-radius: 2rem;
+        text-transform: uppercase;
+        box-shadow: 0 8px 6px -6px #000;
+        outline: none;
+        margin: 0.8rem;
+        background-color: rgb(236, 208, 172);
+    }
+    .btn-project button:hover{
+        box-shadow: 0 8px 6px -6px #0490fb; 
+    }
+
+    /* a{
+        text-transform: uppercase;
+        color: #1B9CFC;
+        text-decoration: none;
+        font-weight: bold;
+    
+    } */
